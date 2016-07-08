@@ -25,6 +25,8 @@
         return;
       }
 
+      console.warn('Recordersito', Recorder.recorder)
+
       // flash app needs time to load and initialize
       if(Recorder.recorder && Recorder.recorder.init) {
         Recorder.recorderOriginalWidth = Recorder.recorder.width;
