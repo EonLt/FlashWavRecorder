@@ -21,7 +21,7 @@ $(function () {
   swfobject.embedSWF("recorder.swf", "flashcontent", appWidth, appHeight, "11.0.0", "", flashvars, params, attributes, function(a){
 									alert()
 									console.warn("Eoelo", a)
-								}););
+								});
 
 //  Handling FWR events ------------------------------------------------------------------------------------------------
 
