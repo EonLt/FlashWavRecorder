@@ -25,7 +25,7 @@
         return;
       }
 
-      console.warn('Recordersito', Recorder.recorder.init)
+      console.warn('Record init', Recorder.recorder.init)
 
       // flash app needs time to load and initialize
       if(Recorder.recorder && Recorder.recorder.init) {
