@@ -27,6 +27,7 @@ $(function () {
     var name, $controls;
     switch (arguments[0]) {
       case "ready":
+        alert()
         var width = parseInt(arguments[1]);
         var height = parseInt(arguments[2]);
         FWRecorder.uploadFormId = "#uploadForm";
