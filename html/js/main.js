@@ -23,6 +23,9 @@ $(function () {
 //  Handling FWR events ------------------------------------------------------------------------------------------------
 
   window.fwr_event_handler = function fwr_event_handler() {
+    
+    console.warn("Como putas me ejecutan", arguments)
+    
     $('#status').prepend("<div class=\"recorder-event\">" + arguments[0] + "</div>");
     var name, $controls;
     switch (arguments[0]) {
