@@ -250,4 +250,4 @@ Support & Sponsors
 ---------------------
 Code quality improved by
 
-![IntelliJ IDEA logo](docs/logo_intellij_idea.png)
+EonLt fork
