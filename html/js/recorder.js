@@ -13,6 +13,8 @@
     isReady: false,
 
     connect: function(name, attempts) {
+      console.warn('Recorder', Recorder)
+      
       if(navigator.appName.indexOf("Microsoft") != -1) {
         Recorder.recorder = window[name];
       } else {
@@ -127,6 +129,7 @@
     },
 
     showPermissionWindow: function(options) {
+      console.warn("PERMISO!!!!", Recorder)
       Recorder.resize(240, 160);
       // need to wait until app is resized before displaying permissions screen
       var permissionCommand = function() {
